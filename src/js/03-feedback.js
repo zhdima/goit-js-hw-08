@@ -30,7 +30,7 @@ function doTask03() {
       form.elements.email.value   = formState.email;
       form.elements.message.value = formState.message;
     } catch (err) {
-      console.error('Error: invalid saved form state in LocalStorage.' + KEY_FORM_STATE);
+      console.error('Error: invalid saved form state in LocalStorage!' + KEY_FORM_STATE);
       console.error(err);
     }
   }
